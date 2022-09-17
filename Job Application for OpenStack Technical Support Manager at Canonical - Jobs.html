@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)https://boards.greenhouse.io/canonicaljobs/jobs/4505252?gh_src=0a232ec41us -->
+<html lang="en"><head prefix="og: http://ogp.me/ns#"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/cb=gapi.loaded_2" async=""></script><script src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/cb=gapi.loaded_1" async=""></script><script src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/cb=gapi(1).loaded_0" async=""></script><script type="text/javascript" async="" src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/recaptcha__en.js.download" crossorigin="anonymous" integrity="sha384-P8pCcHmv6YuQzFS4CHCBH75RXE60mJL5a4xXH5SOKJXf73JeLMNzQcVajnZH59MQ"></script><script type="text/javascript">var _rollbarConfig = {"accessToken":"333f38f9343644929613c6ff7e965f21","captureUncaught":true,"payload":{"environment":"production"}};</script>
+<script type="text/javascript">!function(r){var e={};function o(n){if(e[n])return e[n].exports;var t=e[n]={i:n,l:!1,exports:{}};return r[n].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=r,o.c=e,o.d=function(r,e,n){o.o(r,e)||Object.defineProperty(r,e,{enumerable:!0,get:n})},o.r=function(r){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(r,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(r,"__esModule",{value:!0})},o.t=function(r,e){if(1&e&&(r=o(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var t in r)o.d(n,t,function(e){return r[e]}.bind(null,t));return n},o.n=function(r){var e=r&&r.__esModule?function(){return r.default}:function(){return r};return o.d(e,"a",e),e},o.o=function(r,e){return Object.prototype.hasOwnProperty.call(r,e)},o.p="",o(o.s=0)}([function(r,e,o){"use strict";var n=o(1),t=o(5);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdn.rollbar.com/rollbarjs/refs/tags/v2.22.0/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=n.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=n.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,o){"use strict";var n=o(2),t=o(3);function a(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error("[Rollbar]: Internal error",r)}catch(r){}}}}var l=0;function i(r,e){this.options=r,this._rollbarOldOnError=null;var o=l++;this.shimId=function(){return o},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:e,messages:[]})}var s=o(4),d=function(r,e){return new i(r,e)},c=function(r){return new s(d,r)};function u(r){return a((function(){var e=this,o=Array.prototype.slice.call(arguments,0),n={shim:e,method:r,args:o,ts:new Date};window._rollbarShims[this.shimId()].messages.push(n)}))}i.prototype.loadFull=function(r,e,o,n,t){var l=!1,i=e.createElement("script"),s=e.getElementsByTagName("script")[0],d=s.parentNode;i.crossOrigin="",i.src=n.rollbarJsUrl,o||(i.async=!0),i.onload=i.onreadystatechange=a((function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){i.onload=i.onreadystatechange=null;try{d.removeChild(i)}catch(r){}l=!0,function(){var e;if(void 0===r._rollbarDidLoad){e=new Error("rollbar.js did not load");for(var o,n,a,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];n=o.shift();)for(a=n.args||[],i=0;i<a.length;++i)if("function"==typeof(l=a[i])){l(e);break}}"function"==typeof t&&t(e)}()}})),d.insertBefore(i,s)},i.prototype.wrap=function(r,e,o){try{var n;if(n="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){o&&"function"==typeof o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var e=o;throw e&&("string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e),e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return r}};for(var p="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","),f=0;f<p.length;++f)i.prototype[p[f]]=u(p[f]);r.exports={setupShim:function(r,e){if(r){var o=e.globalAlias||"Rollbar";if("object"==typeof r[o])return r[o];r._rollbarShims={},r._rollbarWrappedError=null;var l=new c(e);return a((function(){e.captureUncaught&&(l._rollbarOldOnError=r.onerror,n.captureUncaughtExceptions(r,l,!0),e.wrapGlobalEventHandlers&&t(r,l,!0)),e.captureUnhandledRejections&&n.captureUnhandledRejections(r,l,!0);var a=e.autoInstrument;return!1!==e.enabled&&(void 0===a||!0===a||"object"==typeof a&&a.network)&&r.addEventListener&&(r.addEventListener("load",l.captureLoad.bind(l)),r.addEventListener("DOMContentLoaded",l.captureDomContentLoaded.bind(l))),r[o]=l,l}))()}},Rollbar:c}},function(r,e,o){"use strict";function n(r,e,o,n){r._rollbarWrappedError&&(n[4]||(n[4]=r._rollbarWrappedError),n[5]||(n[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null);var t=e.handleUncaughtException.apply(e,n);o&&o.apply(r,n),"anonymous"===t&&(e.anonymousErrorsPending+=1)}r.exports={captureUncaughtExceptions:function(r,e,o){if(r){var t;if("function"==typeof e._rollbarOldOnError)t=e._rollbarOldOnError;else if(r.onerror){for(t=r.onerror;t._rollbarOldOnError;)t=t._rollbarOldOnError;e._rollbarOldOnError=t}e.handleAnonymousErrors();var a=function(){var o=Array.prototype.slice.call(arguments,0);n(r,e,t,o)};o&&(a._rollbarOldOnError=t),r.onerror=a}},captureUnhandledRejections:function(r,e,o){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var o,n,t;try{o=r.reason}catch(r){o=void 0}try{n=r.promise}catch(r){n="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!o&&t&&(o=t.reason,n=t.promise)}catch(r){}o||(o="[unhandledrejection] error getting `reason` from event"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(o,n)};n.belongsToShim=o,r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}}}},function(r,e,o){"use strict";function n(r,e,o){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){for(var n=e.addEventListener;n._rollbarOldAdd&&n.belongsToShim;)n=n._rollbarOldAdd;var t=function(e,o,t){n.call(this,e,r.wrap(o),t)};t._rollbarOldAdd=n,t.belongsToShim=o,e.addEventListener=t;for(var a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var l=function(r,e,o){a.call(this,r,e&&e._rollbar_wrapped||e,o)};l._rollbarOldRemove=a,l.belongsToShim=o,e.removeEventListener=l}}r.exports=function(r,e,o){if(r){var t,a,l="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(t=0;t<l.length;++t)r[a=l[t]]&&r[a].prototype&&n(e,r[a].prototype,o)}}},function(r,e,o){"use strict";function n(r,e){this.impl=r(e,this),this.options=e,function(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,e)}},o="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","),n=0;n<o.length;n++)r[o[n]]=e(o[n])}(n.prototype)}n.prototype._swapAndProcessMessages=function(r,e){var o,n,t;for(this.impl=r(this.options);o=e.shift();)n=o.method,t=o.args,this[n]&&"function"==typeof this[n]&&("captureDomContentLoaded"===n||"captureLoad"===n?this[n].apply(this,[t[0],o.ts]):this[n].apply(this,t));return this},r.exports=n},function(r,e,o){"use strict";r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){for(var o,n,t=(r=r||{}).globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;o=window._rollbarShims[i++];)n||(n=o.handler),o.handler._swapAndProcessMessages(l,o.messages);window[t]=n,window._rollbarInitialized=!0}}}}]);</script>
+  <title>Job Application for OpenStack Technical Support Manager at Canonical - Jobs</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta id="viewport" name="viewport" content="width=device-width, minimum-scale=1.0">
+  <meta id="rendered-by" content="jben">
+  <link rel="stylesheet" media="all" href="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/application-a6d2e561e41c10f2af9cb9ada87f95f1a901986175a7f5d963b89e51d7eeda2c.css">
+<link rel="stylesheet" media="all" href="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/responsive-95ad71d0f9cbcb13adb28ed74687b15c00a64bb1c4a6ab47ab9072493777804c.css">
+  <script class="js-metadata processed" data-key="Polyglot.translation" data-type="json" data-value="{&quot;captcha&quot;:{&quot;suspected_bot&quot;:&quot;SUSPECTED BOT: Captcha failed with direct HTTP form post IP %{ip}\n&quot;,&quot;failed_to_load&quot;:&quot;Google Recaptcha service cannot be loaded.&quot;,&quot;failed&quot;:&quot;Oops! There was an error processing your application. Please try again.&quot;,&quot;geetest_failed_to_load&quot;:&quot;Geetest Captcha service failed to load.&quot;},&quot;job_post&quot;:{&quot;almost_there&quot;:&quot;Almost there! Review your information then click &#39;Submit Application&#39; to apply.&quot;,&quot;apply_for_this_job&quot;:&quot;Apply for this Job&quot;,&quot;apply_now&quot;:&quot;Apply Now&quot;,&quot;attach&quot;:&quot;Attach&quot;,&quot;attachment&quot;:&quot;An attachment&quot;,&quot;at_org&quot;:&quot;at %{organization_name}&quot;,&quot;back_to_application&quot;:&quot;Back to application&quot;,&quot;cancel&quot;:&quot;Cancel&quot;,&quot;city&quot;:&quot;City&quot;,&quot;company_name&quot;:&quot;Company Name&quot;,&quot;cover_letter&quot;:&quot;Cover Letter&quot;,&quot;current&quot;:&quot;Current&quot;,&quot;degree&quot;:&quot;Degree&quot;,&quot;discipline&quot;:&quot;Discipline&quot;,&quot;drop_files_here&quot;:&quot;Drop files here&quot;,&quot;education&quot;:&quot;Education&quot;,&quot;education_end_date&quot;:&quot;End Date&quot;,&quot;education_start_date&quot;:&quot;Start Date&quot;,&quot;email&quot;:&quot;Email&quot;,&quot;employment&quot;:&quot;Employment&quot;,&quot;field_chosen&quot;:&quot;%{field} chosen&quot;,&quot;file_types&quot;:&quot;File types&quot;,&quot;first_name&quot;:&quot;First Name&quot;,&quot;loading_attachment&quot;:&quot;Loading attachment from %{uploader}...&quot;,&quot;locate_me&quot;:&quot;Locate me&quot;,&quot;location&quot;:&quot;Location&quot;,&quot;last_name&quot;:&quot;Last Name&quot;,&quot;name&quot;:&quot;Name&quot;,&quot;no&quot;:&quot;No&quot;,&quot;optional&quot;:&quot;Optional&quot;,&quot;or&quot;:&quot;or&quot;,&quot;paste&quot;:&quot;or enter manually&quot;,&quot;phone&quot;:&quot;Phone&quot;,&quot;please_select&quot;:&quot;Please select&quot;,&quot;question&quot;:&quot;Question&quot;,&quot;required&quot;:&quot;Required&quot;,&quot;remove_attachment&quot;:&quot;Remove attachment&quot;,&quot;resume&quot;:&quot;Resume/CV&quot;,&quot;school_name&quot;:&quot;School&quot;,&quot;share_this_job&quot;:&quot;Share this job: &quot;,&quot;select&quot;:&quot;Select&quot;,&quot;select_one&quot;:&quot;Select one&quot;,&quot;select_field&quot;:&quot;Select a %{field}&quot;,&quot;submit_application&quot;:&quot;Submit Application&quot;,&quot;file_uploader_timeout&quot;:&quot;Unable to load %{uploader}. It has either timed out or you can try again later.&quot;,&quot;textarea&quot;:&quot;Enter manually&quot;,&quot;title&quot;:&quot;Title&quot;,&quot;view_more_jobs&quot;:&quot;View more jobs at %{organization_name}&quot;,&quot;view_all_jobs&quot;:&quot;View all jobs&quot;,&quot;without_browser_support&quot;:&quot;The browser does not support %{uploader} upload.&quot;,&quot;year&quot;:&quot;Year&quot;,&quot;yes&quot;:&quot;Yes&quot;},&quot;validation&quot;:{&quot;at_least_one_required&quot;:&quot;At least one option must be checked&quot;,&quot;consent_is_required&quot;:&quot;Please accept the terms to proceed&quot;,&quot;did_you_mean&quot;:&quot;Did you mean&quot;,&quot;empty_attachment&quot;:&quot;Attached files must be larger than 0 bytes&quot;,&quot;field_is_required&quot;:&quot;%{field} is required.&quot;,&quot;invalid_date&quot;:&quot;End Date cannot be before Start Date&quot;,&quot;invalid_email&quot;:&quot;Please use the format \&quot;text@example.com\&quot;&quot;,&quot;invalid_field&quot;:&quot;Invalid %{field}&quot;,&quot;invalid_location&quot;:&quot;Please enter your location and select it from the dropdown&quot;,&quot;month_format&quot;:&quot;Month must be a number between 1 and 12&quot;,&quot;this_field_is_required&quot;:&quot;This field is required.&quot;,&quot;year_format&quot;:&quot;Year must be a number between 1900 and 2100&quot;},&quot;errors&quot;:{&quot;board_misconfigured&quot;:&quot;This job board is not yet configured. Please complete configuration in Greenhouse before embedding.&quot;,&quot;board_no_longer_available&quot;:&quot;The board you are looking for is no longer open.&quot;,&quot;job_not_live&quot;:{&quot;job_closed&quot;:&quot;The job you are looking for is no longer open.&quot;,&quot;board_closed&quot;:&quot;The board on which this job was on is no longer open.&quot;},&quot;job_not_found&quot;:&quot;The job you are looking for was not found.&quot;,&quot;job_processing_timed_out&quot;:&quot;Uh oh!  Your application took too long to process.  If you&#39;re attaching lots of files, try making them smaller.&quot;,&quot;job_stale&quot;:&quot;The company you are applying to has updated this job application. Please save your responses, reload the page, and try to submit again.&quot;},&quot;api_errors&quot;:{&quot;empty_file&quot;:&quot;Attachment &#39;%{field}&#39; is empty. Please provide a non-empty file.&quot;,&quot;invalid_file&quot;:&quot;Attachment &#39;%{field}&#39; is invalid. Please provide a valid file attachment.&quot;},&quot;job_application_request&quot;:{&quot;request_received&quot;:&quot;Thanks for your submission.&quot;},&quot;data_compliance&quot;:{&quot;gdpr&quot;:{&quot;disclaimer&quot;:&quot;%{company_name} has my consent to collect, store, and process my data for the purpose of considering me for employment, and for up to %{retention_period} days thereafter.&quot;}}}" type="text/configuration"></script><script class="js-metadata processed" data-key="errorImageSource" data-type="string" data-value="https://boards.cdn.greenhouse.io/assets/svg/error-69893c3b3f8f27477ac24dbcb3d8e569fcc265882e77cd464d2bad69dd7d3918.svg" type="text/configuration"></script>
+    <meta property="og:title" content="OpenStack Technical Support Manager">
+    <meta property="og:description" content="Home based - Asia Pacific, Perth">
+    <meta property="og:url" content="https://boards.greenhouse.io/canonicaljobs/jobs/4505252">
+    <meta property="og:image" content="https://recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/012/263/original/canonical_aubergine_hex_su.png?1596511991">
+    <meta property="og:type" content="article">
+
+  <script class="js-metadata processed" data-key="JBEN.linkedin_csrf" data-type="string" data-value="3e8db6cd68227c925c782737" type="text/configuration"></script><script class="js-metadata processed" data-key="JBEN.host" data-type="string" data-value="https://boards.greenhouse.io" type="text/configuration"></script><script class="js-metadata processed" data-key="JBEN.internalBoardsHost" data-type="string" data-value="https://app.greenhouse.io" type="text/configuration"></script>
+<style>.picker-dialog-frame{width:100%;height:100%;border:0;overflow:hidden}.picker-dialog-bg{position:absolute;top:0;left:0;background-color:#fff;z-index:1000}.picker-dialog{position:absolute;top:0;left:0;background-color:#fff;border:1px solid #acacac;width:auto;padding:0;z-index:1001;overflow:auto;box-shadow:0 4px 16px rgba(0,0,0,.2)}.picker-dialog-content{font-size:0;padding:0}.picker-dialog-buttons,.picker-dialog-title{display:none}</style><style type="text/css">  @-webkit-keyframes rotate {
+    from  { -webkit-transform: rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg); }
+  }
+
+  @keyframes rotate {
+    from  { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+  }
+
+    .dropbox-dropin-btn, .dropbox-dropin-btn:link, .dropbox-dropin-btn:hover {
+      display: inline-block;
+      height: 14px;
+      font-family: "Lucida Grande", "Segoe UI", "Tahoma", "Helvetica Neue", "Helvetica", sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      color: #636363;
+      text-decoration: none;
+      padding: 1px 7px 5px 3px;
+      border: 1px solid #ebebeb;
+      border-radius: 2px;
+      border-bottom-color: #d4d4d4;
+        background: #fcfcfc;
+  background: -moz-linear-gradient(top, #fcfcfc 0%, #f5f5f5 100%);
+  background: -webkit-linear-gradient(top, #fcfcfc 0%, #f5f5f5 100%);
+  background: linear-gradient(to bottom, #fcfcfc 0%, #f5f5f5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#f5f5f5',GradientType=0);  
+    }
+
+    .dropbox-dropin-default:hover, .dropbox-dropin-error:hover {
+      border-color: #dedede;
+      border-bottom-color: #cacaca;
+        background: #fdfdfd;
+  background: -moz-linear-gradient(top, #fdfdfd 0%, #f5f5f5 100%);
+  background: -webkit-linear-gradient(top, #fdfdfd 0%, #f5f5f5 100%);
+  background: linear-gradient(to bottom, #fdfdfd 0%, #f5f5f5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#f5f5f5',GradientType=0);  
+    }
+
+    .dropbox-dropin-default:active, .dropbox-dropin-error:active {
+      border-color: #d1d1d1;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+    }
+
+    .dropbox-dropin-btn .dropin-btn-status {
+      display: inline-block;
+      width: 15px;
+      height: 14px;
+      vertical-align: bottom;
+      margin: 0 5px 0 2px;
+      background: transparent url('https://www.dropbox.com/static/metaserver/static/images/widgets/dbx-saver-status.png') no-repeat;
+      position: relative;
+      top: 2px;
+    }
+
+    .dropbox-dropin-default .dropin-btn-status {
+      background-position: 0px 0px;
+    }
+
+    .dropbox-dropin-progress .dropin-btn-status {
+      width: 18px;
+      margin: 0 4px 0 0;
+      background: url('https://www.dropbox.com/static/metaserver/static/images/widgets/dbx-progress.png') no-repeat center center;
+        -webkit-animation-name: rotate;
+        -webkit-animation-duration: 1.7s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+      animation-name: rotate;
+      animation-duration: 1.7s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+    .dropbox-dropin-success .dropin-btn-status {
+      background-position: -15px 0px;
+    }
+
+    .dropbox-dropin-disabled {
+      background: #e0e0e0;
+      border: 1px #dadada solid;
+      border-bottom: 1px solid #ccc;
+      box-shadow: none;
+    }
+
+    .dropbox-dropin-disabled .dropin-btn-status {
+      background-position: -30px 0px;
+    }
+
+    .dropbox-dropin-error .dropin-btn-status {
+      background-position: -45px 0px;
+    }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.4) {
+      .dropbox-dropin-btn .dropin-btn-status {
+        background-image: url('https://www.dropbox.com/static/metaserver/static/images/widgets/dbx-saver-status-2x.png');
+        background-size: 60px 14px;
+          -webkit-background-size: 60px 14px;
+      }
+
+      .dropbox-dropin-progress .dropin-btn-status {
+        background: url('https://www.dropbox.com/static/metaserver/static/images/widgets/dbx-progress-2x.png') no-repeat center center;
+        background-size: 20px 20px;
+          -webkit-background-size: 20px 20px;
+      }
+  }
+
+    .dropbox-saver:hover, .dropbox-chooser:hover {
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .dropbox-chooser, .dropbox-dropin-btn {
+      line-height: 11px !important;
+      text-decoration: none !important;
+      box-sizing: content-box !important;
+        -webkit-box-sizing: content-box !important;
+        -moz-box-sizing: content-box !important;
+    }
+    </style><style type="text/css">.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q{display:block!important;border:1px solid #cdcfd2!important;background-color:#fff!important;color:#373a3d!important;width:100vw!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q .IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-24GeGuJgk9LrMLp7qVvlyz{background:#6a7e89!important;color:#fff!important;padding:10px!important;font-size:18px!important;font-family:sans-serif!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q .IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-KVjdulkCFfUZps29EbgAC{background:#f3f6f8!important;border-bottom:1px solid #cdcfd2!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q .IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-KVjdulkCFfUZps29EbgAC>*{margin-right:10px!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q .IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1OeZ2PQ98oAp6Vc5mMc6V5{list-style:none!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q .IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-vCwYmWF_l83ScZBrGnRoi,.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q .IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1OeZ2PQ98oAp6Vc5mMc6V5{margin:0!important;padding:0!important;width:100%!important;display:block!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q .IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-vCwYmWF_l83ScZBrGnRoi:not(:last-child){border-bottom:1px solid #cdcfd2!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q .IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1XQZkb-FlHWABUp4_uShaZ{color:inherit!important;cursor:pointer!important;width:100%!important;display:inline-block!important;margin:10px!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q .IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1XTzMvb2XKitWz0mFLlyyp{margin:5px!important;display:block!important;width:auto!important;white-space:pre!important;overflow-x:scroll!important;background:inherit!important;color:inherit!important;font-family:monospace}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q .IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1XTzMvb2XKitWz0mFLlyyp:not(.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-39QUvFFn5B7GMcqMQkOXZ3){display:none!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q .IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-295DY3nO0DbJWMsOqmjCli{background:#f5f5f5!important;color:#5a5a5a!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1aQZwu6CUzAf2zUcI7tg0Q .IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-295DY3nO0DbJWMsOqmjCli{display:none!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q .IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-38EPFyKXMtoP12rPlmrHxs{background:#e6f7ff!important;color:#006097!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3W4ZnQjhoGfT1gTNcqRXdi .IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-38EPFyKXMtoP12rPlmrHxs{display:none!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q .IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-HGYnfzlmgOZ-l7eANhQe_{background:#fff3ea!important;color:#993a00!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-24e52A11B1UIErbKHtBmqc .IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-HGYnfzlmgOZ-l7eANhQe_{display:none!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q .IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-jji74ZzulHScD0OAD_G7h{background:#fef2f1!important;color:#b10823!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3npS60y-EvfF7G_lioSx2Q.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-28jAOA7cDee-95LvwGsOP- .IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-jji74ZzulHScD0OAD_G7h{display:none!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu{background-color:#0073b1!important;border:0!important;border-radius:2px!important;box-sizing:border-box!important;color:#fff!important;cursor:pointer!important;display:inline-block!important;font-family:-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif!important;font-weight:600!important;overflow:hidden!important;outline-width:2px!important;position:relative!important;text-align:center!important;text-decoration:none!important;vertical-align:middle!important;white-space:nowrap!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu:disabled{cursor:not-allowed!important;opacity:.7!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu:not(:disabled):not(.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1zhzkayakwEXovVYUbq5Gy):hover{background-color:#006097!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu:not(:disabled):not(.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1zhzkayakwEXovVYUbq5Gy):active{background-color:#004b7c!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1zhzkayakwEXovVYUbq5Gy{background-color:#fff!important;color:#0073b1!important;box-shadow:inset 0 0 0 1px rgba(0,0,0,.3)!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1zhzkayakwEXovVYUbq5Gy:not(:disabled):hover{color:#006097!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1zhzkayakwEXovVYUbq5Gy:not(:disabled):active{color:#004b7c!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu>xdoor-icon{display:inline-block!important;height:100%!important;vertical-align:top!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu>xdoor-icon>svg{pointer-events:none!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-7inSbaAsvG5bf7w6lJTEr{font-size:10px!important;height:16px!important;line-height:16px!important;padding:0 6px!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-7inSbaAsvG5bf7w6lJTEr>xdoor-icon{margin-left:-6px!important;margin-right:3px!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-7inSbaAsvG5bf7w6lJTEr>xdoor-icon>svg{height:16px!important;width:16px!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-7inSbaAsvG5bf7w6lJTEr.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-2lrEjt4SOTxqrYsv1piG4c>xdoor-icon{margin-right:-6px!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu,.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3uCBSbQNVNf2QjqHe1rfb6{font-size:11px!important;height:20px!important;line-height:20px!important;padding:0 7px!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3uCBSbQNVNf2QjqHe1rfb6>xdoor-icon,.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu>xdoor-icon{margin-left:-7px!important;margin-right:3.5px!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3uCBSbQNVNf2QjqHe1rfb6>xdoor-icon>svg,.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu>xdoor-icon>svg{height:20px!important;width:20px!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-3uCBSbQNVNf2QjqHe1rfb6.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-2lrEjt4SOTxqrYsv1piG4c>xdoor-icon,.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-2lrEjt4SOTxqrYsv1piG4c>xdoor-icon{margin-right:-7px!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-21Smv9YG-5V6M6KP-5v2WG{font-size:14px!important;height:24px!important;line-height:24px!important;padding:0 12px!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-21Smv9YG-5V6M6KP-5v2WG>xdoor-icon{margin-left:-12px!important;margin-right:6px!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-21Smv9YG-5V6M6KP-5v2WG>xdoor-icon>svg{height:24px!important;width:24px!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-21Smv9YG-5V6M6KP-5v2WG.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-2lrEjt4SOTxqrYsv1piG4c>xdoor-icon{margin-right:-12px!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1TGdQUTLZdNG4R87OfAB-q{font-size:16px!important;height:32px!important;line-height:32px!important;padding:0 16px!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1TGdQUTLZdNG4R87OfAB-q>xdoor-icon{margin-left:-16px!important;margin-right:8px!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1TGdQUTLZdNG4R87OfAB-q>xdoor-icon>svg{height:32px!important;width:32px!important}.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1G9ISYhSF8XoOmdcl0yKDu.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-1TGdQUTLZdNG4R87OfAB-q.IN-2ddddcb3-edb9-4c49-9d5e-b0b8f70202b1-2lrEjt4SOTxqrYsv1piG4c>xdoor-icon{margin-right:-16px!important}</style></head>
+<body data-new-gr-c-s-check-loaded="14.1022.0" data-gr-ext-installed="" data-gr-ext-disabled="forever">
+  <div id="wrapper">
+    <div id="main" class="accessible">
+      
+
+
+
+<div id="app_body" style="padding-left:20px">
+  <div class="logo-container">
+      <div id="logo"><a target="_blank" href="https://www.canonical.com/"><img alt="Canonical - Jobs Logo" src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/canonical_aubergine_hex_su.png" width="200" height="27"></a></div>
+  </div>
+
+    <div id="header">
+    <a href="https://boards.greenhouse.io/canonicaljobs/jobs/4505252?gh_src=0a232ec41us#app" id="apply_button" class="button">
+      Apply Now
+    </a>
+
+  <h1 class="app-title">OpenStack Technical Support Manager</h1>
+
+  <span class="company-name">
+    at Canonical - Jobs
+  </span>
+
+    <a data-mapped="true" href="https://boards.greenhouse.io/canonicaljobs?t=0a232ec41us">(View all jobs)</a>
+
+    <div class="location">
+      Home based - Asia Pacific, Perth
+    </div>
+</div>
+  <div id="content" class="">
+    
+
+    <p>Open source is now the centre of technology innovation, and the new default for tech and traditional companies alike. Canonical Ubuntu is the fastest growing open source platform, with over 20 million users globally. Canonical provides commercial support, consulting and training services to customers and partners who are deploying Ubuntu. Our customers are technology innovators inside global enterprises using Ubuntu and open source to build the future in their industry.</p>
+<p>Our regional Technical Support Managers run world-class Technical Support teams – solving deep technical problems for customers around the world on Ubuntu Server, Ubuntu Desktop and on the public cloud. They demonstrate two key attributes: customer focus – ensuring that customers are always satisfied with the service they are receiving, and technical excellence – ensuring that the support team is always up to date with the our technology, and that they perform sound and quick troubleshooting.</p>
+<p>You'll need to be comfortable in a fast paced environment, able to take responsibility for delivering to customers and enjoy challenges. You will also need to care deeply about your team, their skills, and their career development.</p>
+<p><strong>Key responsibilities</strong></p>
+<ul>
+<li>Management of a professional support team, including skills development and performance management</li>
+<li>Operational control, shift scheduling, accountability for key performance indicators (KPIs)</li>
+<li>Ensures that all customer cases are responded to within the SLA, and in a professional manner</li>
+<li>Act as the customer escalation contact, and ensure that such escalations are addressed appropriately</li>
+<li>Accountability for customer satisfaction</li>
+<li>Contribution to the support knowledge base</li>
+<li>Continuous improvement to the team's processes and support service delivery</li>
+<li>Hire, develop and train support team to match business requirements</li>
+<li>Work with the leadership team to drive growth and transformation initiatives</li>
+</ul>
+<p><strong>Required skills and experience</strong></p>
+<ul>
+<li>Extensive CLI experience with Linux at a technical level (Support, Development, Implementation).</li>
+<li>Experience or knowledge of OpenStack, Public Cloud and Virtualization technologies.</li>
+<li>Leadership experience, and preferably team management experience</li>
+<li>Confidence under pressure, with proven track record of high customer focus</li>
+<li>Preferably fluent in two languages English being primary</li>
+<li>Excellent communication skills (verbal and written)</li>
+</ul>
+<p><strong>About Canonical</strong></p>
+<p>Canonical is a growing, international software company that works with the open-source community to deliver Ubuntu -- the world’s #1 cloud operating system. Our mission is to realize the potential of free software in the lives of individuals and organisations. Our services help businesses worldwide to reduce costs, improve efficiency and enhance security with Ubuntu.</p>
+<p><strong>We offer:</strong></p>
+<ul>
+<li>100% work-from-home</li>
+<li>Learning and development</li>
+<li>Competitive salary</li>
+<li>Recognition rewards</li>
+<li>Annual leave</li>
+<li>Priority Pass for travel</li>
+</ul>
+<p><em>We are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. Whatever your <a href="https://canonical.com/careers/diversity/identity" target="_blank">identity</a> we will give your application fair consideration.<br></em></p>
+<p>#LI-Remote</p>
+
+    
+</div>
+
+    <div id="application" class="">
+      <a name="app"></a>
+      <form id="application_form" enctype="multipart/form-data" action="https://boards.greenhouse.io/canonicaljobs/jobs/4505252" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓">
+        <input type="hidden" name="fingerprint" id="fingerprint" value="ef9ef8f93874d0066de78e55caff411333063e19">
+        <input type="hidden" name="render_date" id="render_date" value="2022-09-11 04:07:01 +0000">
+
+
+
+        <div id="main_fields">
+            <h2 class="heading">Apply for this Job</h2>
+
+            <div class="required-fields">
+              <span class="asterisk">*</span> Required
+            </div>
+
+          <div class="clear"></div>
+
+            <div id="apply_with_buttons">
+                
+
+  <div name="widget-holder">
+  <script type="text/javascript" src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/awliWidget"></script>
+  <span class="IN-Awli-widget" style="line-height: 1; vertical-align: baseline; display: inline-block; width:auto;"><span style="padding: 0 !important; margin: 0 !important; text-indent: 0 !important; display: inline-block !important; vertical-align: baseline !important; font-size: 1px !important;"><iframe frameborder="0" scrolling="no" style="width: 195px; height: 90px;" src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/index.html"></iframe></span></span><script type="IN/AwliWidget" data-company-job-code="4505252" data-allow-sign-in="true" data-callback-method="JBEN.LinkedinProfile.receive" data-mode="BUTTON_DATA" data-api-key="775iqcl0oenj80" data-integration-context="urn:li:organization:234280">
+//<![CDATA[
+
+//]]>
+</script>
+  <script>
+    window.addEventListener('load', function() {
+      if ($) {
+        $("iframe[src*='linkedin.com']").attr("title", "Apply with LinkedIn")
+      }
+    });
+  </script>
+</div>
+
+
+
+
+              <hr>
+            </div>
+
+          
+<script>
+  var EMAIL_ADDRESS_VALIDATOR_URL = 'https://email-address-validator.us.greenhouse.io/address/validate';
+</script>
+
+<div class="field">
+  <label for="first_name">First Name <span class="asterisk">*</span></label>
+  <input type="text" id="first_name" name="job_application[first_name]" aria-required="true" maxlength="255" autocomplete="given-name">
+</div>
+<div class="field">
+  <label for="last_name">Last Name <span class="asterisk">*</span></label>
+  <input type="text" id="last_name" name="job_application[last_name]" aria-required="true" maxlength="255" autocomplete="family-name">
+</div>
+<div class="field">
+  <label for="email">Email <span class="asterisk">*</span></label>
+  <input type="text" id="email" name="job_application[email]" aria-required="true" maxlength="255" autocomplete="email">
+</div>
+<div class="field">
+  <label for="phone">Phone</label>
+  <input type="text" id="phone" name="job_application[phone]" maxlength="255" autocomplete="tel">
+</div>
+
+
+            <div class="field">
+              <label id="location_autocomplete_label" for="job_application[location]">
+                Location (City)
+                  <span class="asterisk">*</span>
+              </label>
+
+              <div id="location_autocomplete_root" data-location_provider="Pelias" data-location_type="locality,localadmin,borough" data-required="true" data-maxlength="255"><auto-complete id="job_application_location" for="location_autocomplete-items-popup" src="#" data-provider="Pelias" data-type="locality,localadmin,borough">
+      <input id="auto_complete_input" name="job_application[location]" type="text" aria-labelledby="location_autocomplete_label" aria-required="true" maxlength="255" role="combobox" aria-controls="location_autocomplete-items-popup" aria-expanded="false" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off" spellcheck="false">
+      <ul id="location_autocomplete-items-popup" hidden="" aria-label="results" role="listbox"></ul>
+      <div id="location_autocomplete-items-popup-feedback" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+    </auto-complete><a href="https://boards.greenhouse.io/canonicaljobs/jobs/4505252?gh_src=0a232ec41us#" class="locate-me">Locate me</a><span></span><label>&nbsp;</label><span data-id="1662878118152" data-for="location-control"><input type="hidden" name="job_application[city]" class="location-city"><input type="hidden" name="job_application[country_long_name]" class="location-country-long-name"><input type="hidden" name="job_application[country_short_name]" class="location-country-short-name"><input type="hidden" name="job_application[latitude]" class="location-latitude"><input type="hidden" name="job_application[longitude]" class="location-longitude"><input type="hidden" name="job_application[state_short_name]" class="location-state-short-name"><input type="hidden" name="job_application[state_long_name]" class="location-state-long-name"><input type="hidden" name="job_application[postal_code]" class="location-postal-code"></span></div>
+            </div>
+
+          
+<div class="field">
+  <fieldset id="resume_fieldset" aria-describedby="validate_resume">
+    <legend>
+      <label aria-label="required" id="resume">
+        Resume/CV <span class="asterisk">*</span>
+      </label>
+    </legend>
+  
+<div class="attach-or-paste " required="required" data-allow-s3="true" data-field="resume" data-file-types="[&quot;pdf&quot;,&quot;doc&quot;,&quot;docx&quot;,&quot;txt&quot;,&quot;rtf&quot;]" data-model="job_application">
+
+  <div class="drop-zone hidden">
+    Drop files here
+  </div>
+
+  <div id="resume_chosen" class="chosen">
+    <img alt="resume chosen" src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/file-296f4c2a42607d24e6901b7c58b0693d4178df7fe4edf1b50e9585efdfad7d39.png">&nbsp;&nbsp;
+    <span id="resume_filename"></span>
+    <button name="button" type="button" class="unstyled-button remove" aria-label="Remove attachment"><img width="11" height="11" alt="Remove attachment" src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/x-00cb7c69bded92bc90f03e0028a3457a4905b1e28c8a7fe16b792086c4288c29.png"></button>
+</div>
+  <div class="link-container">
+    <button name="button" type="button" data-source="attach" class="unstyled-button link-button" aria-describedby="resume-allowable-file-types">Attach</button>
+
+        <a data-source="dropbox" href="https://boards.greenhouse.io/canonicaljobs/jobs/4505252?gh_src=0a232ec41us#">Dropbox</a>
+
+        <a data-source="google-drive" href="https://boards.greenhouse.io/canonicaljobs/jobs/4505252?gh_src=0a232ec41us#">Google Drive</a>
+
+      <button name="button" type="button" data-source="paste" class="unstyled-button link-button" aria-pressed="false">or enter manually</button>
+</div>  <div data-messages="uploaders"></div>
+
+  <div class="validation-anchor" id="validate_resume" style="display: none"></div>
+  <div id="resume-allowable-file-types" class="file-types">
+    (File types: pdf, doc, docx, txt, rtf)
+  </div>
+
+  <div class="progress-bar">
+    <div class="upload">
+      <div class="progress"><div class="bar" style="width: 0%"></div></div>
+    </div>
+    <a href="https://boards.greenhouse.io/canonicaljobs/jobs/4505252?gh_src=0a232ec41us#" class="cancel">
+      <img width="11" height="11" alt="Cancel" src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/x-00cb7c69bded92bc90f03e0028a3457a4905b1e28c8a7fe16b792086c4288c29.png">
+    </a>
+</div>
+    <textarea name="job_application[resume_text]" id="resume_text" class="paste" title="Enter manually"></textarea>
+
+</div>
+
+  </fieldset>
+</div>
+
+
+
+            <span id="education_instructions">
+              When autocomplete results are available use up and down arrows to review
+            </span>
+
+            <div id="education_section"><div class="education" data-education-required="true" data-subfield-config="true">
+  <hr>
+  <fieldset>
+
+      <div class="field">
+        <label for="education_school_name_0">
+          School
+        </label>
+
+        <div class="select2-container school-name background-field" id="s2id_education_school_name_0" style="width: 60%;"><a href="javascript:void(0)" class="select2-choice select2-default" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-5">Select a School</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen5" class="select2-offscreen">
+          School
+        </label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-5" id="s2id_autogen5" aria-describedby="education_instructions"><div class="select2-drop select2-display-none select2-with-searchbox">   <div class="select2-search">       <label for="s2id_autogen5_search" class="select2-offscreen">
+          School
+        </label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-5" id="s2id_autogen5_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-5">   </ul></div></div><input type="hidden" name="job_application[educations][][school_name_id]" id="education_school_name_0" class="school-name background-field" placeholder="Select a School" aria-required="false" data-url="https://boards-api.greenhouse.io/v1/boards/canonicaljobs/education/schools" data-validators="[{&quot;type&quot;:&quot;notBlank&quot;,&quot;key&quot;:&quot;SchoolNameRequired&quot;}]" tabindex="-1" title="
+          School
+        " style="display: none;">
+
+        <a class="remove-background-field hidden" href="https://boards.greenhouse.io/canonicaljobs/jobs/4505252?gh_src=0a232ec41us#"><img alt="Remove Education" src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/close-2388e0f798509ffdefd9fe48321955a399f62a302d4f33f96e798f2272a7b52d.svg"></a>
+      </div>
+
+      <div class="field">
+        <label for="education_degree_0">
+          Degree
+            <span class="asterisk">*</span>
+        </label>
+
+        <div class="select2-container degree background-field" id="s2id_education_degree_0" style="width: 60%;"><a href="javascript:void(0)" class="select2-choice select2-default" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-6">Select a Degree</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen6" class="select2-offscreen">
+          Degree
+            *
+        </label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-6" id="s2id_autogen6" aria-describedby="education_instructions"><div class="select2-drop select2-display-none select2-with-searchbox">   <div class="select2-search">       <label for="s2id_autogen6_search" class="select2-offscreen">
+          Degree
+            *
+        </label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-6" id="s2id_autogen6_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-6">   </ul></div></div><select name="job_application[educations][][degree_id]" id="education_degree_0" class="degree background-field" aria-required="true" data-placeholder="Select a Degree" data-validators="[{&quot;type&quot;:&quot;notBlank&quot;,&quot;key&quot;:&quot;DegreeRequired&quot;}]" tabindex="-1" title="
+          Degree
+            *
+        " style="display: none;"><option value=""></option>
+<option value="11331789">High School</option>
+<option value="11331790">Associate's Degree</option>
+<option value="11331791">Bachelor's Degree</option>
+<option value="11331792">Master's Degree</option>
+<option value="11331793">Master of Business Administration (M.B.A.)</option>
+<option value="11331794">Juris Doctor (J.D.)</option>
+<option value="11331795">Doctor of Medicine (M.D.)</option>
+<option value="11331796">Doctor of Philosophy (Ph.D.)</option>
+<option value="11331797">Engineer's Degree</option>
+<option value="11331798">Other</option>
+<option value="11881594">Computer Science Degree</option></select>
+      </div>
+
+      <div class="field">
+        <label for="education_discipline_0">
+          Discipline
+            <span class="asterisk">*</span>
+        </label>
+
+        <div class="select2-container discipline background-field" id="s2id_education_discipline_0" style="width: 60%;"><a href="javascript:void(0)" class="select2-choice select2-default" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-7">Select a Discipline</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen7" class="select2-offscreen">
+          Discipline
+            *
+        </label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-7" id="s2id_autogen7" aria-describedby="education_instructions"><div class="select2-drop select2-display-none select2-with-searchbox">   <div class="select2-search">       <label for="s2id_autogen7_search" class="select2-offscreen">
+          Discipline
+            *
+        </label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-7" id="s2id_autogen7_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-7">   </ul></div></div><select name="job_application[educations][][discipline_id]" id="education_discipline_0" class="discipline background-field" aria-required="true" data-placeholder="Select a Discipline" data-validators="[{&quot;type&quot;:&quot;notBlank&quot;,&quot;key&quot;:&quot;DisciplineRequired&quot;}]" tabindex="-1" title="
+          Discipline
+            *
+        " style="display: none;"><option value=""></option>
+<option value="11331799">Accounting</option>
+<option value="11331800">African Studies</option>
+<option value="11331801">Agriculture</option>
+<option value="11331802">Anthropology</option>
+<option value="11331803">Applied Health Services</option>
+<option value="11331804">Architecture</option>
+<option value="11331805">Art</option>
+<option value="11331806">Asian Studies</option>
+<option value="11331807">Biology</option>
+<option value="11331808">Business</option>
+<option value="11331809">Business Administration</option>
+<option value="11331810">Chemistry</option>
+<option value="11331811">Classical Languages</option>
+<option value="11331812">Communications &amp; Film</option>
+<option value="11331813">Computer Science</option>
+<option value="11331814">Dentistry</option>
+<option value="11331815">Developing Nations</option>
+<option value="11331816">Discipline Unknown</option>
+<option value="11331817">Earth Sciences</option>
+<option value="11331818">Economics</option>
+<option value="11331819">Education</option>
+<option value="11331820">Electronics</option>
+<option value="11331821">Engineering</option>
+<option value="11331822">English Studies</option>
+<option value="11331823">Environmental Studies</option>
+<option value="11331824">European Studies</option>
+<option value="11331825">Fashion</option>
+<option value="11331826">Finance</option>
+<option value="11331827">Fine Arts</option>
+<option value="11331828">General Studies</option>
+<option value="11331829">Health Services</option>
+<option value="11331830">History</option>
+<option value="11331831">Human Resources Management</option>
+<option value="11331832">Humanities</option>
+<option value="11331833">Industrial Arts &amp; Carpentry</option>
+<option value="11331834">Information Systems</option>
+<option value="11331835">International Relations</option>
+<option value="11331836">Journalism</option>
+<option value="11331837">Languages</option>
+<option value="11331838">Latin American Studies</option>
+<option value="11331839">Law</option>
+<option value="11331840">Linguistics</option>
+<option value="11331841">Manufacturing &amp; Mechanics</option>
+<option value="11331842">Mathematics</option>
+<option value="11331843">Medicine</option>
+<option value="11331844">Middle Eastern Studies</option>
+<option value="11331845">Naval Science</option>
+<option value="11331846">North American Studies</option>
+<option value="11331847">Nuclear Technics</option>
+<option value="11331848">Operations Research &amp; Strategy</option>
+<option value="11331849">Organizational Theory</option>
+<option value="11331850">Philosophy</option>
+<option value="11331851">Physical Education</option>
+<option value="11331852">Physical Sciences</option>
+<option value="11331853">Physics</option>
+<option value="11331854">Political Science</option>
+<option value="11331855">Psychology</option>
+<option value="11331856">Public Policy</option>
+<option value="11331857">Public Service</option>
+<option value="11331858">Religious Studies</option>
+<option value="11331859">Russian &amp; Soviet Studies</option>
+<option value="11331860">Scandinavian Studies</option>
+<option value="11331861">Science</option>
+<option value="11331862">Slavic Studies</option>
+<option value="11331863">Social Science</option>
+<option value="11331864">Social Sciences</option>
+<option value="11331865">Sociology</option>
+<option value="11331866">Speech</option>
+<option value="11331867">Statistics &amp; Decision Theory</option>
+<option value="11331868">Urban Studies</option>
+<option value="11331869">Veterinary Medicine</option>
+<option value="12065635">Other</option></select>
+      </div>
+
+
+  </fieldset>
+</div></div>
+
+<a id="add_education" href="https://boards.greenhouse.io/canonicaljobs/jobs/4505252?gh_src=0a232ec41us#">
+  + Add Another <span class="offscreen">Education</span>
+</a>
+
+        </div>
+
+            <hr>
+
+          <div id="custom_fields">
+            <div class="field">
+  <label>Describe your experience with OpenStack, CEPH, and related technologies.<span class="asterisk">&nbsp;*</span>
+    <br>
+    
+    <input type="hidden" name="job_application[answers_attributes][0][question_id]" id="job_application_answers_attributes_0_question_id" value="35276885">
+<input type="hidden" name="job_application[answers_attributes][0][priority]" id="job_application_answers_attributes_0_priority" value="0">
+
+<textarea name="job_application[answers_attributes][0][text_value]" id="job_application_answers_attributes_0_text_value" aria-required="true" autocomplete="custom-question-describe-your-experience-with-openstack-ceph-and-related-technologies"></textarea>
+
+
+</label></div>
+<div class="field">
+  <label>Describe your professional experience as a Support Manager, Engineering Manager, or related<span class="asterisk">&nbsp;*</span>
+    <br>
+    
+    <input type="hidden" name="job_application[answers_attributes][1][question_id]" id="job_application_answers_attributes_1_question_id" value="35276886">
+<input type="hidden" name="job_application[answers_attributes][1][priority]" id="job_application_answers_attributes_1_priority" value="1">
+
+<textarea name="job_application[answers_attributes][1][text_value]" id="job_application_answers_attributes_1_text_value" aria-required="true" autocomplete="custom-question-describe-your-professional-experience-as-a-support-manager-engineering-manager-or-related"></textarea>
+
+
+</label></div>
+<div class="field">
+  <label>Describe your professional technical support experience<span class="asterisk">&nbsp;*</span>
+    <br>
+    
+    <input type="hidden" name="job_application[answers_attributes][2][question_id]" id="job_application_answers_attributes_2_question_id" value="35276887">
+<input type="hidden" name="job_application[answers_attributes][2][priority]" id="job_application_answers_attributes_2_priority" value="2">
+
+<textarea name="job_application[answers_attributes][2][text_value]" id="job_application_answers_attributes_2_text_value" aria-required="true" autocomplete="custom-question-describe-your-professional-technical-support-experience"></textarea>
+
+
+</label></div>
+<div class="field">
+  <label>Are you comfortable with 4-6 weeks of international travel per year?<span class="asterisk">&nbsp;*</span>
+    <br>
+    
+    <input type="hidden" name="job_application[answers_attributes][3][question_id]" id="job_application_answers_attributes_3_question_id" value="35276888">
+<input type="hidden" name="job_application[answers_attributes][3][priority]" id="job_application_answers_attributes_3_priority" value="3">
+
+<div class="select2-container" id="s2id_job_application_answers_attributes_3_boolean_value" style="width: 385px;"><a href="javascript:void(0)" class="select2-choice" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-1">--</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen1" class="select2-offscreen"></label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-1" id="s2id_autogen1"><div class="select2-drop select2-display-none">   <div class="select2-search select2-search-hidden select2-offscreen">       <label for="s2id_autogen1_search" class="select2-offscreen"></label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-1" id="s2id_autogen1_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-1">   </ul></div></div><select name="job_application[answers_attributes][3][boolean_value]" id="job_application_answers_attributes_3_boolean_value" aria-required="true" tabindex="-1" title="" style="display: none;"><option value="">--</option>
+<option value="1">Yes</option>
+<option value="0">No</option></select>
+
+
+</label></div>
+<div class="field">
+  <label>How did you do in maths, physics or computer science at high school?<span class="asterisk">&nbsp;*</span>
+    <br>
+    
+    <input type="hidden" name="job_application[answers_attributes][4][question_id]" id="job_application_answers_attributes_4_question_id" value="35276889">
+<input type="hidden" name="job_application[answers_attributes][4][priority]" id="job_application_answers_attributes_4_priority" value="4">
+
+<div class="select2-container" id="s2id_job_application_answers_attributes_4_answer_selected_options_attributes_4_question_option_id" style="width: 200px;"><a href="javascript:void(0)" class="select2-choice" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-2">Please select</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen2" class="select2-offscreen"></label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-2" id="s2id_autogen2"><div class="select2-drop select2-display-none">   <div class="select2-search select2-search-hidden select2-offscreen">       <label for="s2id_autogen2_search" class="select2-offscreen"></label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-2" id="s2id_autogen2_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-2">   </ul></div></div><select name="job_application[answers_attributes][4][answer_selected_options_attributes][4][question_option_id]" id="job_application_answers_attributes_4_answer_selected_options_attributes_4_question_option_id" aria-required="true" style="width: 200px; display: none;" tabindex="-1" title=""><option value="">Please select</option><option value="114022060">Cannot recall</option>
+<option value="114022061">Not a strength</option>
+<option value="114022062">Top 50%</option>
+<option value="114022063">Top 20%</option>
+<option value="114022064">Top 10%</option>
+<option value="114022065">Top 5%</option>
+<option value="114022066">Top student</option></select>
+
+
+</label></div>
+<div class="field">
+  <label>What is your degree result? I.e. Upper second, 2.1, 85%, First class, GPA 3.8/4.0 (expected)<span class="asterisk">&nbsp;*</span>
+    <br>
+    <span><p>Universities around the world score degrees in different ways. Please indicate your result, or expected result if you are close to graduation. For a GPA be sure to indicate the scoring system. e.g. GPA 1.3 (German, max 1.0 declining) or GPA 3.8 (US, max 4.0)</p></span>
+    <input type="hidden" name="job_application[answers_attributes][5][question_id]" id="job_application_answers_attributes_5_question_id" value="35276890">
+<input type="hidden" name="job_application[answers_attributes][5][priority]" id="job_application_answers_attributes_5_priority" value="5">
+
+<input type="text" name="job_application[answers_attributes][5][text_value]" id="job_application_answers_attributes_5_text_value" aria-required="true" maxlength="255" autocomplete="custom-question-what-is-your-degree-result-ie-upper-second-21-85-first-class-gpa-3840-expected">
+
+
+</label></div>
+<div class="field">
+  <label>What time zone are you in?<span class="asterisk">&nbsp;*</span>
+    <br>
+    
+    <input type="hidden" name="job_application[answers_attributes][6][question_id]" id="job_application_answers_attributes_6_question_id" value="35276891">
+<input type="hidden" name="job_application[answers_attributes][6][priority]" id="job_application_answers_attributes_6_priority" value="6">
+
+<div class="select2-container" id="s2id_job_application_answers_attributes_6_answer_selected_options_attributes_6_question_option_id" style="width: 200px;"><a href="javascript:void(0)" class="select2-choice" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-3">Please select</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen3" class="select2-offscreen"></label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-3" id="s2id_autogen3"><div class="select2-drop select2-display-none">   <div class="select2-search select2-search-hidden select2-offscreen">       <label for="s2id_autogen3_search" class="select2-offscreen"></label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-3" id="s2id_autogen3_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-3">   </ul></div></div><select name="job_application[answers_attributes][6][answer_selected_options_attributes][6][question_option_id]" id="job_application_answers_attributes_6_answer_selected_options_attributes_6_question_option_id" aria-required="true" style="width: 200px; display: none;" tabindex="-1" title=""><option value="">Please select</option><option value="114022067">Europe, Middle East or Africa Time Zones</option>
+<option value="114022068">American Time Zones</option>
+<option value="114022069">Asia Pacific Time Zones</option></select>
+
+
+</label></div>
+<div class="field">
+  <label>LinkedIn Profile
+    <br>
+    
+    <input type="hidden" name="job_application[answers_attributes][7][question_id]" id="job_application_answers_attributes_7_question_id" value="35276892">
+<input type="hidden" name="job_application[answers_attributes][7][priority]" id="job_application_answers_attributes_7_priority" value="7">
+
+<input type="text" name="job_application[answers_attributes][7][text_value]" id="job_application_answers_attributes_7_text_value" maxlength="255" autocomplete="custom-question-linkedin-profile">
+
+
+</label></div>
+<div class="field">
+  <label>Please confirm that you have read and agree to Canonical's Recruitment Privacy Notice and Privacy Policy.<span class="asterisk">&nbsp;*</span>
+    <br>
+    <span><p><a href="https://ubuntu.com/legal/data-privacy/recruitment">Recruitment Privacy Notice&nbsp;</a></p>
+<p><a href="https://ubuntu.com/legal/data-privacy?_ga=2.3133040.1366270434.1657548863-1016224624.1649073745">Privacy Policy</a></p></span>
+    <input type="hidden" name="job_application[answers_attributes][8][question_id]" id="job_application_answers_attributes_8_question_id" value="35276893">
+<input type="hidden" name="job_application[answers_attributes][8][priority]" id="job_application_answers_attributes_8_priority" value="8">
+
+<div class="select2-container" id="s2id_job_application_answers_attributes_8_answer_selected_options_attributes_8_question_option_id" style="width: 200px;"><a href="javascript:void(0)" class="select2-choice" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-4">Please select</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen4" class="select2-offscreen"></label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-4" id="s2id_autogen4"><div class="select2-drop select2-display-none">   <div class="select2-search select2-search-hidden select2-offscreen">       <label for="s2id_autogen4_search" class="select2-offscreen"></label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-4" id="s2id_autogen4_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-4">   </ul></div></div><select name="job_application[answers_attributes][8][answer_selected_options_attributes][8][question_option_id]" id="job_application_answers_attributes_8_answer_selected_options_attributes_8_question_option_id" aria-required="true" style="width: 200px; display: none;" tabindex="-1" title=""><option value="">Please select</option><option value="114022070">Acknowledge/Confirm</option></select>
+
+
+</label></div>
+
+          </div>
+
+
+
+
+          <div id="captcha_container"></div>
+  <hr>
+
+
+
+        <div id="error_message"></div>
+
+        <div id="submit_buttons">
+          <input type="button" value="Submit Application" id="submit_app" class="button">
+        </div>
+<input id="job_application_mapped_url_token" name="job_application[mapped_url_token]" type="hidden" value="0a232ec41us"></form>    </div>
+</div>
+
+  <div class="education education-template hidden" data-education-required="true" data-subfield-config="true">
+  <hr>
+  <fieldset>
+
+      <div class="field">
+        <label for="education_school_name">
+          School
+        </label>
+
+        <input type="hidden" name="job_application[educations][][school_name_id]" id="education_school_name" class="school-name background-field" placeholder="Select a School" aria-required="false" data-url="https://boards-api.greenhouse.io/v1/boards/canonicaljobs/education/schools" data-validators="[{&quot;type&quot;:&quot;notBlank&quot;,&quot;key&quot;:&quot;SchoolNameRequired&quot;}]">
+
+        <a class="remove-background-field" href="https://boards.greenhouse.io/canonicaljobs/jobs/4505252?gh_src=0a232ec41us#"><img alt="Remove Education" src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/close-2388e0f798509ffdefd9fe48321955a399f62a302d4f33f96e798f2272a7b52d.svg"></a>
+      </div>
+
+      <div class="field">
+        <label for="education_degree">
+          Degree
+            <span class="asterisk">*</span>
+        </label>
+
+        <select name="job_application[educations][][degree_id]" id="education_degree" class="degree background-field" aria-required="true" data-placeholder="Select a Degree" data-validators="[{&quot;type&quot;:&quot;notBlank&quot;,&quot;key&quot;:&quot;DegreeRequired&quot;}]"><option value=""></option>
+<option value="11331789">High School</option>
+<option value="11331790">Associate's Degree</option>
+<option value="11331791">Bachelor's Degree</option>
+<option value="11331792">Master's Degree</option>
+<option value="11331793">Master of Business Administration (M.B.A.)</option>
+<option value="11331794">Juris Doctor (J.D.)</option>
+<option value="11331795">Doctor of Medicine (M.D.)</option>
+<option value="11331796">Doctor of Philosophy (Ph.D.)</option>
+<option value="11331797">Engineer's Degree</option>
+<option value="11331798">Other</option>
+<option value="11881594">Computer Science Degree</option></select>
+      </div>
+
+      <div class="field">
+        <label for="education_discipline">
+          Discipline
+            <span class="asterisk">*</span>
+        </label>
+
+        <select name="job_application[educations][][discipline_id]" id="education_discipline" class="discipline background-field" aria-required="true" data-placeholder="Select a Discipline" data-validators="[{&quot;type&quot;:&quot;notBlank&quot;,&quot;key&quot;:&quot;DisciplineRequired&quot;}]"><option value=""></option>
+<option value="11331799">Accounting</option>
+<option value="11331800">African Studies</option>
+<option value="11331801">Agriculture</option>
+<option value="11331802">Anthropology</option>
+<option value="11331803">Applied Health Services</option>
+<option value="11331804">Architecture</option>
+<option value="11331805">Art</option>
+<option value="11331806">Asian Studies</option>
+<option value="11331807">Biology</option>
+<option value="11331808">Business</option>
+<option value="11331809">Business Administration</option>
+<option value="11331810">Chemistry</option>
+<option value="11331811">Classical Languages</option>
+<option value="11331812">Communications &amp; Film</option>
+<option value="11331813">Computer Science</option>
+<option value="11331814">Dentistry</option>
+<option value="11331815">Developing Nations</option>
+<option value="11331816">Discipline Unknown</option>
+<option value="11331817">Earth Sciences</option>
+<option value="11331818">Economics</option>
+<option value="11331819">Education</option>
+<option value="11331820">Electronics</option>
+<option value="11331821">Engineering</option>
+<option value="11331822">English Studies</option>
+<option value="11331823">Environmental Studies</option>
+<option value="11331824">European Studies</option>
+<option value="11331825">Fashion</option>
+<option value="11331826">Finance</option>
+<option value="11331827">Fine Arts</option>
+<option value="11331828">General Studies</option>
+<option value="11331829">Health Services</option>
+<option value="11331830">History</option>
+<option value="11331831">Human Resources Management</option>
+<option value="11331832">Humanities</option>
+<option value="11331833">Industrial Arts &amp; Carpentry</option>
+<option value="11331834">Information Systems</option>
+<option value="11331835">International Relations</option>
+<option value="11331836">Journalism</option>
+<option value="11331837">Languages</option>
+<option value="11331838">Latin American Studies</option>
+<option value="11331839">Law</option>
+<option value="11331840">Linguistics</option>
+<option value="11331841">Manufacturing &amp; Mechanics</option>
+<option value="11331842">Mathematics</option>
+<option value="11331843">Medicine</option>
+<option value="11331844">Middle Eastern Studies</option>
+<option value="11331845">Naval Science</option>
+<option value="11331846">North American Studies</option>
+<option value="11331847">Nuclear Technics</option>
+<option value="11331848">Operations Research &amp; Strategy</option>
+<option value="11331849">Organizational Theory</option>
+<option value="11331850">Philosophy</option>
+<option value="11331851">Physical Education</option>
+<option value="11331852">Physical Sciences</option>
+<option value="11331853">Physics</option>
+<option value="11331854">Political Science</option>
+<option value="11331855">Psychology</option>
+<option value="11331856">Public Policy</option>
+<option value="11331857">Public Service</option>
+<option value="11331858">Religious Studies</option>
+<option value="11331859">Russian &amp; Soviet Studies</option>
+<option value="11331860">Scandinavian Studies</option>
+<option value="11331861">Science</option>
+<option value="11331862">Slavic Studies</option>
+<option value="11331863">Social Science</option>
+<option value="11331864">Social Sciences</option>
+<option value="11331865">Sociology</option>
+<option value="11331866">Speech</option>
+<option value="11331867">Statistics &amp; Decision Theory</option>
+<option value="11331868">Urban Studies</option>
+<option value="11331869">Veterinary Medicine</option>
+<option value="12065635">Other</option></select>
+      </div>
+
+
+  </fieldset>
+</div>
+
+
+
+
+    </div>
+  </div>
+
+      <div id="footer">
+    <span>Powered by</span>&nbsp;<a target="_blank" href="http://www.greenhouse.io/">
+      <img border="0" alt="Greenhouse Logo" id="gh_logo" src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/greenhouse-in-app-logo-green-236d994ee39682bb46e214901c264de0df582c97e949e7c854c3531b79f00240.svg" width="100" height="30">
+</a>    <div class="privacy-policy">
+      Read our <a href="http://www.greenhouse.io/privacy-policy">Privacy Policy</a>
+    </div>
+  </div>
+
+      <script src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/application-551abd6bd1f8375bf9a9df84a6394b4a269995ae3c60ad33614e66f2eafb8b65.js.download"></script>
+
+  <div class="s3-upload-form" data-presigned-form="resume"><form id="s3_upload_for_resume" data-key-template="stash/applications/resumes/{timestamp}-{unique_id}-241bc01a8f7769f6fb093f74b3aa61db" enctype="multipart/form-data" action="https://grnhse-prod-jben-us-west-2.s3.us-west-2.amazonaws.com/" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="x-amz-server-side-encryption" value="AES256"><input type="hidden" name="success_action_status" value="201"><input type="hidden" name="policy" value="eyJleHBpcmF0aW9uIjoiMjAyMi0xMC0xMVQwNjozNToxOFoiLCJjb25kaXRpb25zIjpbeyJidWNrZXQiOiJncm5oc2UtcHJvZC1qYmVuLXVzLXdlc3QtMiJ9LFsic3RhcnRzLXdpdGgiLCIkdXRmOCIsIiJdLFsic3RhcnRzLXdpdGgiLCIkYXV0aGVudGljaXR5X3Rva2VuIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRrZXkiLCJzdGFzaC9hcHBsaWNhdGlvbnMvcmVzdW1lcyJdLHsieC1hbXotc2VydmVyLXNpZGUtZW5jcnlwdGlvbiI6IkFFUzI1NiJ9LHsic3VjY2Vzc19hY3Rpb25fc3RhdHVzIjoiMjAxIn0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMSw1MzY4NzA5MTIwXSxbInN0YXJ0cy13aXRoIiwiJENvbnRlbnQtVHlwZSIsIiJdLHsieC1hbXotY3JlZGVudGlhbCI6IkFLSUFWUUdPTEdZMzVNTDQ1RUMyLzIwMjIwOTExL3VzLXdlc3QtMi9zMy9hd3M0X3JlcXVlc3QifSx7IngtYW16LWFsZ29yaXRobSI6IkFXUzQtSE1BQy1TSEEyNTYifSx7IngtYW16LWRhdGUiOiIyMDIyMDkxMVQwNjM1MThaIn1dfQ=="><input type="hidden" name="x-amz-credential" value="AKIAVQGOLGY35ML45EC2/20220911/us-west-2/s3/aws4_request"><input type="hidden" name="x-amz-algorithm" value="AWS4-HMAC-SHA256"><input type="hidden" name="x-amz-date" value="20220911T063518Z"><input type="hidden" name="x-amz-signature" value="53eb554fc7cab05357a6b857c4915102765f925b35002c896909fa3ad4fb1e4e"><input type="file" name="file" tabindex="-1"><input type="hidden" name="key"></form></div>
+<script class="js-metadata processed" data-key="JBEN.hideCaptcha" data-type="boolean" data-value="false" type="text/configuration"></script><script class="js-metadata processed" data-key="JBEN.alternateCaptcha" data-type="boolean" data-value="false" type="text/configuration"></script><script class="js-metadata processed" data-key="JBEN.geetestPath" data-type="string" data-value="/geetest" type="text/configuration"></script><script class="js-metadata processed" data-key="JBEN.Recaptcha.publicKey" data-type="string" data-value="6LfZS8kaAAAAAG853sBcz6KRVtBgvRVFoF7qk4mL" type="text/configuration"></script>      <script type="text/javascript">
+        var captchaLoadCallback = function() {
+          grecaptcha.enterprise.execute(JBEN.Recaptcha.publicKey, { action: 'load_job' }).then(function(token) {
+            // Future: send this assessment token to the server?
+          });
+        };
+      </script>
+      <script src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/enterprise.js.download" async=""></script>
+
+  <script src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/show_init-2f5fdd5c5ac90ad3c0ac0d76992d75eafc694581fdc565f42aa90e0fdc3c5d2c.js.download"></script>
+  
+
+
+  <script class="js-metadata processed" data-key="JBEN.PublicJobBoard.UncacheableAttributes.path" data-type="string" data-value="/uncacheable_attributes.json" type="text/configuration"></script><script class="js-metadata processed" data-key="LocationControl.Providers.Mapbox.apiKey" data-type="string" data-value="pk.eyJ1IjoiamNtdWxsZXIiLCJhIjoiY2l2YmI2ZG82MDA4bzJ6b3UwNTB1enkycSJ9.oRrvDNk1PKKA76v6qSRFXg" type="text/configuration"></script>
+  <script class="js-metadata processed" data-key="LocationControl.Providers.Pelias.apiKey" data-type="string" data-value="ge-39f1178289d5d0c5" type="text/configuration"></script>
+  <script type="application/ld+json">
+  {"@context":"schema.org","@type":"JobPosting","hiringOrganization":{"@type":"Organization","name":"Canonical - Jobs","logo":"https://recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/012/263/resized/canonical_aubergine_hex_su.png?1596511991"},"title":"OpenStack Technical Support Manager","datePosted":"2022-08-23","jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Perth, Western Australia, Australia","addressRegion":"","addressCountry":null,"postalCode":null}},"description":"\u003cp\u003eOpen source is now the centre of technology innovation, and the new default for tech and traditional companies alike. Canonical Ubuntu is the fastest growing open source platform, with over 20 million users globally. Canonical provides commercial support, consulting and training services to customers and partners who are deploying Ubuntu. Our customers are technology innovators inside global enterprises using Ubuntu and open source to build the future in their industry.\u003c/p\u003e\n\u003cp\u003eOur regional Technical Support Managers run world-class Technical Support teams – solving deep technical problems for customers around the world on Ubuntu Server, Ubuntu Desktop and on the public cloud. They demonstrate two key attributes: customer focus – ensuring that customers are always satisfied with the service they are receiving, and technical excellence – ensuring that the support team is always up to date with the our technology, and that they perform sound and quick troubleshooting.\u003c/p\u003e\n\u003cp\u003eYou'll need to be comfortable in a fast paced environment, able to take responsibility for delivering to customers and enjoy challenges. You will also need to care deeply about your team, their skills, and their career development.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eKey responsibilities\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eManagement of a professional support team, including skills development and performance management\u003c/li\u003e\n\u003cli\u003eOperational control, shift scheduling, accountability for key performance indicators (KPIs)\u003c/li\u003e\n\u003cli\u003eEnsures that all customer cases are responded to within the SLA, and in a professional manner\u003c/li\u003e\n\u003cli\u003eAct as the customer escalation contact, and ensure that such escalations are addressed appropriately\u003c/li\u003e\n\u003cli\u003eAccountability for customer satisfaction\u003c/li\u003e\n\u003cli\u003eContribution to the support knowledge base\u003c/li\u003e\n\u003cli\u003eContinuous improvement to the team's processes and support service delivery\u003c/li\u003e\n\u003cli\u003eHire, develop and train support team to match business requirements\u003c/li\u003e\n\u003cli\u003eWork with the leadership team to drive growth and transformation initiatives\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cstrong\u003eRequired skills and experience\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eExtensive CLI experience with Linux at a technical level (Support, Development, Implementation).\u003c/li\u003e\n\u003cli\u003eExperience or knowledge of OpenStack, Public Cloud and Virtualization technologies.\u003c/li\u003e\n\u003cli\u003eLeadership experience, and preferably team management experience\u003c/li\u003e\n\u003cli\u003eConfidence under pressure, with proven track record of high customer focus\u003c/li\u003e\n\u003cli\u003ePreferably fluent in two languages English being primary\u003c/li\u003e\n\u003cli\u003eExcellent communication skills (verbal and written)\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cstrong\u003eAbout Canonical\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eCanonical is a growing, international software company that works with the open-source community to deliver Ubuntu -- the world’s #1 cloud operating system. Our mission is to realize the potential of free software in the lives of individuals and organisations. Our services help businesses worldwide to reduce costs, improve efficiency and enhance security with Ubuntu.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eWe offer:\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e100% work-from-home\u003c/li\u003e\n\u003cli\u003eLearning and development\u003c/li\u003e\n\u003cli\u003eCompetitive salary\u003c/li\u003e\n\u003cli\u003eRecognition rewards\u003c/li\u003e\n\u003cli\u003eAnnual leave\u003c/li\u003e\n\u003cli\u003ePriority Pass for travel\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cem\u003eWe are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. Whatever your \u003ca href=\"https://canonical.com/careers/diversity/identity\" target=\"_blank\"\u003eidentity\u003c/a\u003e we will give your application fair consideration.\u003cbr\u003e\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003e#LI-Remote\u003c/p\u003e"}
+</script>
+
+    <script type="text/javascript" src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/dropins.js.download" id="dropboxjs" data-app-key="mh9jyh4mfwjnfhj" async=""></script>
+
+<script class="js-metadata processed" data-key="googlePickerDeveloperKey" data-type="string" data-value="AIzaSyCratp6KuOmiXWfR3ABY8azVmw8XFnBl64" type="text/configuration"></script><script class="js-metadata processed" data-key="googlePickerClientId" data-type="string" data-value="594601915089-7c2994029qkt5qu2tmbppujr9jqrqqrs.apps.googleusercontent.com" type="text/configuration"></script><script class="js-metadata processed" data-key="googlePickerAppId" data-type="number" data-value="594601915089" type="text/configuration"></script>
+  <script type="text/javascript" src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/client.js.download" async="" gapi_processed="true"></script>
+  <script type="text/javascript" src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/api.js.download" async="" gapi_processed="true"></script>
+
+
+  
+
+<span role="status" aria-live="polite" class="select2-hidden-accessible"></span><div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/anchor.html" width="256" height="60" role="presentation" name="a-5mv9ldu0o3sp" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/saved_resource(1).html"></iframe></div><div id="UMS_TOOLTIP" style="position: absolute; cursor: pointer; z-index: 2147483647; background: transparent; top: -100000px; left: -100000px;"></div><iframe id="apiproxy28e3595940e6d268165a6013d40c29d9128c7a700.214310116" name="apiproxy28e3595940e6d268165a6013d40c29d9128c7a700.214310116" src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/proxy.html" tabindex="-1" aria-hidden="true" style="width: 1px; height: 1px; position: absolute; top: -100px; display: none;"></iframe><script src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/in.js.download" defer="">api_key:775iqcl0oenj80</script><script src="./Job Application for OpenStack Technical Support Manager at Canonical - Jobs_files/apply-with-linkedin-widget-script" defer=""></script></body><umsdataelement id="UMSSendDataEventElement"></umsdataelement><div id="tmtoolbar_manual_rating_injected" style="display: none;">init</div></html>
